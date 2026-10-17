@@ -1,3 +1,11 @@
 function Title() {
-  return <h1>I am the Title!</h1>
-     }
+  return (
+    <div>
+      <p> 2*2 = {2*2}</p>
+      </div>
+  
+  );
+
+}
+     export default Title;
+     

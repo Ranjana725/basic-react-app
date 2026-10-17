@@ -1,5 +1,6 @@
-import "./App.css"
-//import
+import "./App.css";
+import Title from "./Title.jsx";
+
 function Description() {
   return <H3> Iam the Description!</H3>
 }
@@ -7,12 +8,12 @@ function Description() {
      function App() {
       return (
       <div>
-        <h1>This is my app component</h1>
-        <p>inside app component we have:</p>  
+        <Title />
+        <Description />
         <Title />
         <Description />
       </div>
       );
-     }
+     } 
 
 export default App;
